@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+</head>
+<body>
+  <h1>Open the devtools!</h1>
+
+  Note (var names):
+  <pre>
+    n (initial) -> var0
+    n -> var12
+    a -> var20
+    b -> var21
+  </pre>
+
+  <script type="module">
+    import buildMathModule from "../dist/math.mjs";
+    const { _fib: fib } = await buildMathModule();
+
+    console.log(`fib(14) = ${fib(14)}`);
+  </script>
+</body>
+</html>

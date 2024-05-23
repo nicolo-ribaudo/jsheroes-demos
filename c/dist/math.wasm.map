@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "sources": [
+    "../lib/math.c",
+    "../../../../../../../../opt/s/w/ir/x/w/install/emscripten/system/lib/compiler-rt/emscripten_tempret.s",
+    "../../../../../../../../emsdk/emscripten/system/lib/compiler-rt/stack_limits.S",
+    "../../../../../../../../emsdk/emscripten/system/lib/pthread/library_pthread_stub.c",
+    "../../../../../../../../emsdk/emscripten/system/lib/libc/musl/src/stdio/ofl.c",
+    "../../../../../../../../emsdk/emscripten/system/lib/libc/musl/src/stdio/__lockfile.c",
+    "../../../../../../../../emsdk/emscripten/system/lib/libc/musl/src/stdio/fflush.c",
+    "../../../../../../../../emsdk/emscripten/system/lib/compiler-rt/stack_ops.S"
+  ],
+  "names": [],
+  "mappings": "6XAGA,yBACM,OAAE,WAAF,oBAAQ,cAER,WACA,WAEG,WAAE,WAAT,gBACa,OAAI,OAAF,OAAT,OACA,OAAF,OACE,OAAF,OACD,yBAJH,KAOO,OAAP,QACF,W,CCPA,GACA,EACA,C,CAKA,GACA,C,CCgCA,KAEA,EAMA,EAGA,EACA,CACA,EACA,CACA,EAEA,C,CAYA,GACA,EACA,CACA,C,CAnDA,GACA,C,CAIA,GACA,C,EC2VwB,C,EAEE,C,ECxXzB,MACA,K,EAKA,MACD,C,CCbA,GAaC,C,EASD,C,KCjBK,UAEC,YAA2B,OAAP,SACpB,QAA2B,OAAP,EAAH,MAEb,IAAV,GAAE,WACC,mBACO,OAAW,KAAN,CAAR,EAA0B,IAAH,MAC3B,YAHH,KAAE,MAKA,EAyBF,IApBC,yBAkBA,IAfO,WAAW,KAAN,CAAR,QACA,KAAH,IACQ,KAAJ,MACH,QAMK,OAAW,OAAN,GAAR,EAAsC,OAAP,GAAR,KAAH,aAGL,OAAU,OACrB,GAER,UAED,G,CC5BA,GACA,EACA,C,IAKA,EAEA,EAEA,CAEA,EACA,CACA,EACA,EACA,EACA,C,CAIA,GACA"
+}
