@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "names": ["canReadNames"],
+  "sources": ["../src/main.js"],
+  "sourcesContent": ["class State {\n  get isLoggedIn() {\n    return true;\n  }\n  get isAdmin() {\n    return false;\n  }\n}\n\nfunction canReadNames(state) {\n  console.log(\"Is logged in?\", state.isLoggedIn);\n  return state.isLoggedIn && state.isAdmin;\n}\n\nconst state = new State();\nconsole.log(\"Can read names?\", canReadNames());\n"],
+  "mappings": ";;;;SASSA,CAAYA,sCACU;;;+BAKAA;;"
+}

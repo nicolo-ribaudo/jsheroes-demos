@@ -6,3 +6,4 @@ function n(state) {console.log("Is logged in?", state.isLoggedIn);return state.i
 
 const state = new State();
 console.log("Can read names?", n());
+//# sourceMappingURL=./main.js.map
